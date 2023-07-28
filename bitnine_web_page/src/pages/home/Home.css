@@ -1,0 +1,150 @@
+/* hero section */
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.heroSectionContainer {
+    max-width: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.heroSectionBtns {
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+}
+
+
+/* package section */
+.packageSection {
+    padding:100px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+}
+
+.packageSectionContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.packageSectionContainer img {
+    width: 100%;
+}
+
+
+/* feature section */
+.featureSection {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.featureSectionContainer {
+    text-align: center;
+    max-width: 1000px;
+}
+
+.featureSectionContainer img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+/* db engine */
+.dbEngineSection {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.dbEngineSectionContainer {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.dbEngineSectionFeatures {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.dbEngineSectionFeature {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    max-width: 320px;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.dbEngineSectionFeature img {
+    width: 100%;
+}
+
+
+/* enterprise section */
+.enterpriseSection {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enterpriseSectionContainer {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.enterpriseBody {
+    display: flex;
+    gap: 30px;
+}
+
+.enterpriseBody h2 {
+    margin: 20px 0px;
+}
+
+.enterpriseImg {
+    flex: 1;
+    
+} 
+
+.enterpriseImg img {
+    width: 100%;
+}
+
+.enterpriseContent {
+    flex: 1;
+    
+}
+
+.enterpriseContentList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.enterpriseContentItem {
+    border: 2px solid var(--primary-color-light);
+    border-radius: 10px;
+    width: 100%;
+    padding: 25px 10px;
+}
+
+.enterpriseContentItem p {
+    color: var(--primary-color-light) !important;
+}
+
+

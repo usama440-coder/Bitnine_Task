@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --text-color: #666666;
+  --heading-color: #444444;
+  --primary-color: #022EA9;
+  --secondary-color: #FAC433;
+  --background-color: #F3F6FB;
+  --background-color-light: #FAFAFA;
+  --primary-color-light: #3B9FD7;
+  --text-color-light: #B7B7B7;
+  --heading-color-light: #ABABAB;
+}
+
+body, button {
+  font-family: 'Monda', sans-serif;
+}
+
+p {
+  color: var(--text-color);
+}
+
+h4, h5, h6 {
+  color: var(--heading-color)
+}

@@ -1,0 +1,16 @@
+/* button */
+.btnPrimary {
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s ease-out;
+}
+
+.btnPrimary:hover {
+    color: var(--secondary-color);
+}

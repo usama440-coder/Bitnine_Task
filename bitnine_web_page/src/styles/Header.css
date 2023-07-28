@@ -1,0 +1,51 @@
+/* header */
+
+header {
+    padding: 20px 40px;
+}
+
+/* header contact */
+.headerContact {
+    background-color: var(--background-color-light);
+    
+}
+
+/* header navigation */
+.headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerNav img {
+    width: 220px;
+}
+
+.navLinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navLinks .navLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    transition: color 0.2s ease-out;
+}
+
+.navLinks .navLink:hover {
+    color: var(--secondary-color)
+}
+
+.navBtn {
+    font-size: 16px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: var(--secondary-color);
+}
